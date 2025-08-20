@@ -2645,7 +2645,7 @@
                                 <p>
                                     <i class="fas fa-calendar"
                                         style="background: var(--secondary-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; padding: 0 5px; border-radius: 3px;"></i>
-                                    Cliente desde: {{ $user->created_at->format('M Y') }}
+                                   Cliente desde: {{ $user->created_at ? $user->created_at->format('M Y') : 'No disponible' }}
                                 </p>
                             </div>
 
