@@ -32,6 +32,8 @@ class Usuario extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
         'estado' => 'boolean',
+        'created_at' => 'datetime',
+        'updated_at' => 'datetime',
     ];
 
     // Roles del sistema

@@ -3435,7 +3435,7 @@
                     }
                 }
             });
-            return total || 30; // Default 30 mins si no hay selección
+           x
         }
 
         // Funcion para formatear fecha como YYYY-MM-DD (para input date)
